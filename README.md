@@ -9,7 +9,7 @@ Deep neural networks (DNNs) often perform poorly in the presence of domain shift
 ## Framework
 <img src="figures/GLC_framework.png" width="1000"/>
 
-### Prerequisites
+## Prerequisites
 - python3, pytorch, numpy, PIL, scipy, sklearn, tqdm, etc.
 - We have presented the our conda environment file in `./environment.yml`.
 
@@ -44,7 +44,7 @@ Please manually download these datasets from the official websites, and unzip th
 │   ├── ...
 ```
 
-## Training:
+## Training
 1. Open-partial Domain Adaptation (OPDA) on Office, OfficeHome, and VisDA
 ```
 cd ./scripts
