@@ -70,32 +70,32 @@ bash ./scripts/train_source_PDA.sh
 bash ./scripts/train_target_PDA.sh
 ```
 
-## Results
+<!-- ## Results
 NOTE THAT GLC ONLY RELIES ON STANDARD CLOSED-SET MODEL!
 
-| OPDA    |SF         | Veneue| Office-31| OfficeHome | VisDA| DomainNet |
+| OPDA    |Source-free         | Veneue| Office-31| OfficeHome | VisDA| DomainNet |
 | ------- | --------  | ----- |-------- | --------   | ---- | ---- | 
-|DANCE | ❎ | NeurIPS-21 |80.3 | 63.9 | 42.8| 33.5|
-|OVANet| ❎ | ICCV-21    |86.5 | 71.8 | 53.1| 50.7|
-|GATE  | ❎ | CVPR-22    |87.6 | 75.6 | 56.4| 52.1|
-|UMAD  | ✅ | Arxiv-21      |87.0 | 70.1 | 58.3| 47.1|
-|GLC   | ✅ | CVPR-23    |**87.8** | **75.6** | **73.1**| **55.1**|
+|DANCE | No | NeurIPS-21 |80.3 | 63.9 | 42.8| 33.5|
+|OVANet| No | ICCV-21    |86.5 | 71.8 | 53.1| 50.7|
+|GATE  | No | CVPR-22    |87.6 | 75.6 | 56.4| 52.1|
+|UMAD  | Yes | Arxiv-21      |87.0 | 70.1 | 58.3| 47.1|
+|GLC   | Yes | CVPR-23    |**87.8** | **75.6** | **73.1**| **55.1**|
 
-| OSDA    |SF         | Veneue| Office-31| OfficeHome | VisDA|
+| OSDA    |Source-free         | Veneue| Office-31| OfficeHome | VisDA|
 | ------- | --------  | ----- |-------- | --------   | ---- |
-|DANCE | ❎ | NeurIPS-21 |79.8 | 12.9 | 67.5|
-|OVANet| ❎ | ICCV-21    |**91.7** | 64.0 | 66.1|
-|GATE  | ❎ | CVPR-22    |89.5 | 69.0 | 70.8|
-|UMAD  | ✅ | Arxiv-21     |89.8 | 66.4 | 66.8|
-|GLC   | ✅ | CVPR-23    |89.0 | **69.8** | **72.5**|
+|DANCE | No | NeurIPS-21 |79.8 | 12.9 | 67.5|
+|OVANet| No | ICCV-21    |**91.7** | 64.0 | 66.1|
+|GATE  | No | CVPR-22    |89.5 | 69.0 | 70.8|
+|UMAD  | Yes | Arxiv-21     |89.8 | 66.4 | 66.8|
+|GLC   | Yes | CVPR-23    |89.0 | **69.8** | **72.5**|
 
-| PDA    |SF         | Veneue| Office-31| OfficeHome | VisDA|
-| ------- | --------  | ----- |-------- | --------   | ---- |
-|DANCE | ❎ | NeurIPS-21 |79.8 | 12.9 | 67.5|
-|OVANet| ❎ | ICCV-21    |91.7 | 64.0 | 66.1|
-|GATE  | ❎ | CVPR-22    |93.7 | **74.0** | 75.6|
-|UMAD  | ✅ | Arxiv-21   |89.5 | 66.3 | 68.5|
-|GLC   | ✅ | CVPR-23    |**94.1** | 72.5 | **76.2**|
+| PDA    |Source-free         | Veneue| Office-31| OfficeHome | VisDA|
+| -------| --------  | ----- |-------- | --------   | ---- |
+|DANCE | No | NeurIPS-21 |79.8 | 12.9 | 67.5|
+|OVANet| No | ICCV-21    |91.7 | 64.0 | 66.1|
+|GATE  | No  | CVPR-22    |93.7 | **74.0** | 75.6|
+|UMAD  | Yes | Arxiv-21   |89.5 | 66.3 | 68.5|
+|GLC   | Yes | CVPR-23    |**94.1** | 72.5 | **76.2**| -->
 
 ## Citation
 If you find our codebase helpful, please star our project and cite our paper:
