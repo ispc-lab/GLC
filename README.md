@@ -47,7 +47,6 @@ Please manually download these datasets from the official websites, and unzip th
 ## Training
 1. Open-partial Domain Adaptation (OPDA) on Office, OfficeHome, and VisDA
 ```
-cd ./scripts
 # Source Model Preparing
 bash ./scripts/train_source_OPDA.sh
 # Target Model Adaptation
@@ -55,7 +54,6 @@ bash ./scripts/train_target_OPDA.sh
 ```
 2. Open-set Domain Adaptation (OSDA) on Office, OfficeHome, and VisDA
 ```
-cd ./scripts
 # Source Model Preparing
 bash ./scripts/train_source_OSDA.sh
 # Target Model Adaptation
@@ -63,7 +61,6 @@ bash ./scripts/train_target_OSDA.sh
 ```
 3. Partial-set Domain Adaptation (PDA) on Office, OfficeHome, and VisDA
 ```
-cd ./scripts
 # Source Model Preparing
 bash ./scripts/train_source_PDA.sh
 # Target Model Adaptation
