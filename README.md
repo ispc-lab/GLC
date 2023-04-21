@@ -1,6 +1,11 @@
 
 # [Upcycling Models under Domain and Category Shift[CVPR-2023]](https://arxiv.org/abs/2303.07110)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/upcycling-models-under-domain-and-category/universal-domain-adaptation-on-office-31)](https://paperswithcode.com/sota/universal-domain-adaptation-on-office-31?p=upcycling-models-under-domain-and-category)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/upcycling-models-under-domain-and-category/universal-domain-adaptation-on-office-home)](https://paperswithcode.com/sota/universal-domain-adaptation-on-office-home?p=upcycling-models-under-domain-and-category)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/upcycling-models-under-domain-and-category/universal-domain-adaptation-on-visda2017)](https://paperswithcode.com/sota/universal-domain-adaptation-on-visda2017?p=upcycling-models-under-domain-and-category)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/upcycling-models-under-domain-and-category/universal-domain-adaptation-on-domainnet)](https://paperswithcode.com/sota/universal-domain-adaptation-on-domainnet?p=upcycling-models-under-domain-and-category)
+
 ## Introduction
 Deep neural networks (DNNs) often perform poorly in the presence of domain shift and category shift. To address this, in this paper, we explore the Source-free Universal Domain Adaptation (SF-UniDA). SF-UniDA is appealing in view that universal model adaptation can be resolved only on the basis of a standard pre-trained closed-set model, i.e., without source raw data and dedicated model architecture. To achieve this, we develop a generic global and local clustering technique (GLC). GLC equips with an inovative one-vs-all global pseudo-labeling strategy to realize "known" and "unknown" data samples separation under various category-shift. Remarkably, in the most challenging open-partial-set DA scenario, GLC outperforms UMAD by 14.8% on the VisDA benchmark.
 
