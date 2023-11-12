@@ -151,7 +151,7 @@ def build_args():
         domain_list = ["Painting", "Real", "Sketch"]
         args.source_data_dir = os.path.join("./data/DomainNet", domain_list[args.s_idx])
         args.target_data_dir = os.path.join("./data/DomainNet", domain_list[args.t_idx])
-        args.target_domain_list = [domain_list[idx] for idx in range(4) if idx != args.s_idx]
+        args.target_domain_list = [domain_list[idx] for idx in range(3) if idx != args.s_idx]
         args.target_domain_dir_list = [os.path.join("./data/DomainNet", item) for item in args.target_domain_list]
         args.embed_feat_dim = 512 # considering that DomainNet involves more than 256 categories.
         
